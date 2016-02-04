@@ -1,0 +1,42 @@
+name = Rangle Theme
+description = A customize theme
+core = 7.x
+
+; Include CSS files.
+stylesheets[all][] = css/fullcalendar.css
+stylesheets[all][] = css/animate.min.css
+stylesheets[all][] = css/sweet-alert.css
+stylesheets[all][] = css/material-design-iconic-font.min.css
+stylesheets[all][] = css/jquery.mCustomScrollbar.min.css
+stylesheets[all][] = css/app.min.1.css
+stylesheets[all][] = css/app.min.2.css
+stylesheets[all][] = css/styles.css
+scripts[] = js/jquery.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jquery.flot.js
+scripts[] = js/jquery.flot.resize.js
+scripts[] = js/curvedLines.js
+scripts[] = js/jquery.sparkline.min.js
+scripts[] = js/jquery.easypiechart.min.js
+scripts[] = js/moment.min.js
+scripts[] = js/fullcalendar.min.js
+scripts[] = js/jquery.simpleWeather.min.js
+scripts[] = js/waves.min.js
+scripts[] = js/bootstrap-growl.min.js
+scripts[] = js/sweet-alert.min.js
+scripts[] = js/jquery.mCustomScrollbar.concat.min.js
+scripts[] = js/curved-line-chart.js
+scripts[] = js/line-chart.js
+scripts[] = js/charts.js
+scripts[] = js/functions.js
+scripts[] = js/demo.js
+
+
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[sidebar_first] = Left sidebar
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_second] = Right sidebar
+regions[footer] = Footer
